@@ -1,0 +1,36 @@
+.header .navbar-light .navbar-toggler-icon::after,
+.header .navbar-light .navbar-toggler-icon::before,
+.header .navbar-light .navbar-toggler-icon,
+.mybtn2,
+.header .navbar-light .navbar-toggler-icon,
+.footer-section,
+.newsletter-section::before,
+.member-section::before,
+.features-section .features-item:hover,
+.section-title .title::before,
+.home-section,
+.header {
+  background-color: orange;
+}
+.footer-section .footer-social-links a:hover i,
+.contact-section .contact-item .icon i,
+.contact-section .contact-item h5,
+.device-item .fas,
+.device-item .fab,
+.member-section .client-info h5,
+.features-section .features-item .icon i,
+.about-section .about-content ul li i,
+.section-title .title,
+.mybtn1:hover,
+.mybtn1 {
+  color: orange;
+}
+.contact-section .contact-form .form-control:focus,
+.member-section .client-info img {
+  border-color: orange;
+}
+@media (max-width: 991px) {
+  .header .navbar #collapsibleNavbar .nav-item .nav-link {
+    color: orange;
+  }
+}

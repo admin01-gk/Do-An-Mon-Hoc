@@ -1,0 +1,48 @@
+    * {
+        box-sizing: border-box;
+    }
+    /* Style the search field */
+    
+    .timkiem {
+        padding-top: 25px;
+        padding-left: 25%;
+    }
+    
+    form.timkiem input[type=text] {
+        padding: 10px;
+        font-size: 12px;
+        border: 1px solid rgb(255, 255, 255);
+        float: left;
+        width: 60%;
+        background: #f1f1f1;
+        border-radius: 12px;
+        margin: 5px;
+    }
+    /* Style the submit button */
+    
+    form.timkiem button {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: #ff9100;
+        color: white;
+        font-size: 12px;
+        border: 1px solid rgb(255, 255, 255);
+        border-left: none;
+        border-radius: 12px;
+        /* Prevent double borders */
+        cursor: pointer;
+        margin: 5px;
+    }
+    
+    form.timkiem button:hover {
+        background: #ffffff;
+        color: black;
+    }
+    /* Clear floats */
+    
+    form.timkiem::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
